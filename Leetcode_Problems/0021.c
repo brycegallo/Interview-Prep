@@ -10,8 +10,11 @@
  *     struct ListNode *next;
  * };
  */
-// Optimal Solution: Iterative
-// Time Complexity: O(m+n) Memory Complexity: O(1)
+
+// Iterative Solution (Optimal)
+// Complexities:
+// Time : O(m+n)
+// Space: O(1)
 struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
     // Create a placeholder node that will serve as the head of the output list
     struct  ListNode placeholder;
@@ -38,6 +41,6 @@ struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
     return placeholder.next;
 }
 
-// Sub-optimal Solution: Recursive
+// Recursive Solution (Sub-optimal) 
 // Time Complexity: O(m+n) Memory Complexity: O(m+n) i think
 // might do this later

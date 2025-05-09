@@ -16,6 +16,11 @@
  * }
 */
 // If all assertions pass, then your solution will be accepted.
+
+// Iterative Two-Pointer solution
+// Complexities:
+// Time : O(n)
+// Space: O(1)
 int removeDuplicates(int* nums, int numsSize) {
     int left = 0;
     int right = 0;

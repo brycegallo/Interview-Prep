@@ -5,8 +5,11 @@
 // 1. Open brackets must be closed by the same type of bracket
 // 2. Open brackets must be closed in the correct order
 // 3. Every close bracket has a corresponding open bracket of the same type
-// Stack solution:
-// Time Complexity: O(n) Memory: O(n)
+
+// Stack solution
+// Complexities:
+// Time : O(n)
+// Space: O(n)
 bool isValid(char *s) {
     int s_len = strlen(s);
     char stack[s_len] = {};

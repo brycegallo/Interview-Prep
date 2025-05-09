@@ -9,7 +9,9 @@
  */
 
 // Single-Pass Solution
-// Time Complexity: O(n) Memory: O(n)
+// Complexities: 
+// Time : O(n)
+// Memory: O(n)
 int* getConcatenation(int* nums, int numsSize, int* returnSize) {
     *returnSize = numsSize * 2;
     int* ans = malloc(sizeof(int) * numsSize * 2);
@@ -18,6 +20,7 @@ int* getConcatenation(int* nums, int numsSize, int* returnSize) {
         //int second_i = i + numsSize;
         //ans[i] = nums[i];
         //ans[second_i] = ans[i];
+	// commented lines above are expressed more succinctly in line below
         ans[i] = ans[(i + numsSize)] = nums[i];
     }
     return ans;
