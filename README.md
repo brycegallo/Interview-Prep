@@ -6,4 +6,4 @@ C:      19<br/>
 Go:     4<br/>
 Python: 4<br/>
 
-Total:  24
+Total:  27
