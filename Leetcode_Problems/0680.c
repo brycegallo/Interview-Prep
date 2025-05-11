@@ -1,8 +1,11 @@
 // Leetcode 0680 - Valid Palindrome II
 // Easy - Two Pointers
 // Given a string s, return true if s can be a palindrome after deleting at most one character from it
+
 // Two-Pointer Solution - i believe this is the most optimal use of a helper function
-// Time Complexity: O(n) Memory: O(1)
+// Complexities:
+// Time : O(n)
+// Space: O(1)
 bool isPalindrome(char* s, int left, int right) {
     int i = left;
     int j = right;

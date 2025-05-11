@@ -1,9 +1,11 @@
 // Leetcode 0704 - Binary Search
 // Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
 // You must write an algorithm with O(log n) runtime complexity.
-//
+
 // Binary search Solution
-// Time Complexity: O(log2 n) Memory: O(1)
+// Complexities:
+// Time : O(log2 n)
+// Space: O(1)
 
 int search(int* nums, int numsSize, int target) {
     int left = 0;

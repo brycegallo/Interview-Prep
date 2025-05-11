@@ -6,12 +6,12 @@
 //
 /**
  * Note: The returned array must be malloced, assume caller calls free().
- */
+*/
 
 // Single-Pass Solution
 // Complexities: 
 // Time : O(n)
-// Memory: O(n)
+// Space: O(n)
 int* getConcatenation(int* nums, int numsSize, int* returnSize) {
     *returnSize = numsSize * 2;
     int* ans = malloc(sizeof(int) * numsSize * 2);

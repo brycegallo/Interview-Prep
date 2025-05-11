@@ -14,6 +14,7 @@
 //
 // Return the number that I picked.
 //
+
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -27,6 +28,9 @@
 int guess(int num);
 
 // Binary Search Solution
+// Complexities:
+// Time : O(logn)
+// Space: O(1)
 int guessNumber(int n){
     int left = 1;
     int middle;

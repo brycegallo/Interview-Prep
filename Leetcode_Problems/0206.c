@@ -7,9 +7,12 @@
  *     int val;
  *     struct ListNode *next;
  * };
- */
+*/
+
 // Optimal Solution: Two pointer solution, iterative 
-// Time Complexity: O(n), Memory: O(1)
+// Complexities:
+// Time : O(n)
+// Space: O(1)
 struct ListNode* reverseList(struct ListNode* head) {
     struct ListNode* current = head;
     // previous and placeholder must be NULL to avoid retaining their values from prior leetcode testcases
@@ -26,7 +29,9 @@ struct ListNode* reverseList(struct ListNode* head) {
 }
 
 // Sub-optimal Solution: Recursive solution
-// Time Complexity: O(n), Memory: O(n)
+// Complexities:
+// Time : O(n)
+// Space: O(n)
 struct ListNode* recursiveReverseList(struct ListNode* head) {
     if (!head) {
 	return NULL;
