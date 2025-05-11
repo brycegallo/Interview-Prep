@@ -5,8 +5,11 @@
 // You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
 //
 // Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
 // Sliding Window Solution
-// Time Complexity: O(n) Memory O(1)
+// Complexities:
+// Time : O(n)
+// Space: O(1)
 
 int maxProfit(int* prices, int pricesSize) {
     int left = 0;

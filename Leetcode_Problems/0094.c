@@ -12,8 +12,11 @@
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
+
 // Recursive Solution
-// Time Complexity: O(n), Memory: O(n)
+// Complexities:
+// Time : O(n)
+// Space: O(n)
 int* inorderTraversal(struct TreeNode* root, int* returnSize) {
     if(root){
         int *left_array, *right_array;
