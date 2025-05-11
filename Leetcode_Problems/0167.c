@@ -7,10 +7,12 @@
 // Your solution must use only constant extra space.
 /**
  * Note: The returned array must be malloced, assume caller calls free().
- */
+*/
 
 // Two-Pointer Solution
-// Time Complexity: O(n), Memory: O(1)
+// Complexities:
+// Time : O(n)
+// Space: O(1)
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize) {
     int* result = (int *)malloc(2*sizeof(int));
     int left = 0;

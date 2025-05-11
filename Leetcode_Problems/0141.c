@@ -10,10 +10,12 @@
  *     int val;
  *     struct ListNode *next;
  * };
- */
+*/
 
 // Tortoise and Hare Solution
-// Time Complexity: O(n) Memory: O(1)
+// Complexities:
+// Time : O(n)
+// Space: O(1)
 // time complexity is O(n) because the hare pointer will always meet the tortoise pointer at the nth position in the linked list
 bool hasCycle(struct ListNode *head) {
     if (head && head->next) {
