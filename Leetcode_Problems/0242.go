@@ -1,8 +1,11 @@
 // Leetcode 0242 - Valid Anagram
 // Given two strings s and t, return true if t is an anagram of s, and false otherwise
 // s is guaranteed to be at least 1 character, t is not
+
 // Solution with quicksort
-// Time Complexity: O(n logn + m logm) Space: O(1) or O(n + m) depending on algorithm
+// Complexities:
+// Time : O(n logn + m logm)
+// Space: O(1) or O(n + m) depending on sorting algorithm used
 func isAnagram(s string, t string) bool {
     if len(s) != len(t) {
 	return false

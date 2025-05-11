@@ -4,7 +4,9 @@
 // Alphanumeric characters include letters and numbers
 //
 // Given a string s, return true if it is a palindrome, or false otherwise
-// Time Complexity O(n) Memory O(1)
+// Complexities:
+// Time : O(n)
+// Space: O(1)
 func isAlphaNumeric(c rune) bool {
     return unicode.IsLetter(c) || unicode.IsDigit(c)
 }

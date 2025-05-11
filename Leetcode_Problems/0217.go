@@ -4,7 +4,9 @@
 // and return false if every element is distinct.
 
 // Hash Set solution
-// Time: O(n) Memory: O(n)
+// Complexities:
+// Time : O(n)
+// Space: O(n)
 func containsDuplicate(nums []int) bool {
     // canonical way to create a new map:
     seen := make(map[int]bool)
