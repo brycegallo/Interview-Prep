@@ -1,4 +1,4 @@
-// Leetcode 0020 - Valid Parentheses
+// LeetCode 0020 - Valid Parentheses
 // Easy - Stack
 // Given a string s containing just the characters '(', ')', '[', ']', '{', and '}', determine if the input string is valid
 // an input string is valid if:
