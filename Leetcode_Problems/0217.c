@@ -1,8 +1,8 @@
-// leetcode 0217: contains duplicate
+// LeetCode 0217: contains duplicate
 // Easy - Arrays & Hashing
 // Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
 
-// Brute force, passes 65/77 testcases on leetcode, fails 66th due to limit exceeded
+// Brute force, passes 65/77 testcases on LeetCode, fails 66th due to limit exceeded
 // Complexities:
 // Time : O(n^2)
 // Space: O(1)

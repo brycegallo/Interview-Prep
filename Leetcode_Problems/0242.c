@@ -1,5 +1,5 @@
-// Leetcode 0242: Valid Anagram
-// Easy - Arrays and Hashing
+// LeetCode 0242: Valid Anagram
+// Easy - Arrays & Hashing
 // Given two strings s and t, return true if t is an anagram of s, and false otherwise
 // s is guaranteed to be at least 1 character, t is not
 

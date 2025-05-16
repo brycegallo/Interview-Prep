@@ -1,4 +1,4 @@
-// Leetcode 0374 - Guess Number Higher or Lower
+// LeetCode 0374 - Guess Number Higher or Lower
 // Easy - Binary Search
 // We are playing the Guess Game. The game is as follows:
 //

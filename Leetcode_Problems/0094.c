@@ -1,4 +1,4 @@
-// Leetcode 0094 - Binary Tree Inorder Traversal
+// LeetCode 0094 - Binary Tree Inorder Traversal
 // Easy - Binary Trees
 // Given the root of a binary tree, return the inorder traversal of its nodes' values
 /**
@@ -8,10 +8,10 @@
  *     struct TreeNode *left;
  *     struct TreeNode *right;
  * };
- */
+*/
 /**
  * Note: The returned array must be malloced, assume caller calls free().
- */
+*/
 
 // Recursive Solution
 // Complexities:

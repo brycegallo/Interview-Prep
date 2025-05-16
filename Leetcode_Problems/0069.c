@@ -1,4 +1,4 @@
-// Leetcode 0069 - Sqrt(x)
+// LeetCode 0069 - Sqrt(x)
 // Easy - Binary Search
 // Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
 // You must not use any built-in exponent function or operator.

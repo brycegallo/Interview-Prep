@@ -1,4 +1,4 @@
-# Leetcode 0003 - Longest Substring Without Repeating Characters
+# LeetCode 0003 - Longest Substring Without Repeating Characters
 # Easy - Arrays & Hashing
 # Given a string s, find the length of the longest substring without duplicate characters.
 

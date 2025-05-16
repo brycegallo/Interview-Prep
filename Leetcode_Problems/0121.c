@@ -1,4 +1,4 @@
-// Leetcode 0121 - Best Time to Buy and Sell Stock
+// LeetCode 0121 - Best Time to Buy and Sell Stock
 // Easy - Sliding Window
 // You are given an array prices where prices[i] is the price of a given stock on the ith day.
 //

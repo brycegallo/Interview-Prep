@@ -1,4 +1,4 @@
-// Leetcode 0206 - Reverse Linked List
+// LeetCode 0206 - Reverse Linked List
 // Easy - Linked Lists
 // Given the head of a singly linked list, reverse the list, and return the reversed list
 /**
@@ -15,7 +15,7 @@
 // Space: O(1)
 struct ListNode* reverseList(struct ListNode* head) {
     struct ListNode* current = head;
-    // previous and placeholder must be NULL to avoid retaining their values from prior leetcode testcases
+    // previous and placeholder must be NULL to avoid retaining their values from prior LeetCode testcases
     struct ListNode* previous = NULL;
     struct ListNode* placeholder = NULL;
 

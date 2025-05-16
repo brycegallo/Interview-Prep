@@ -1,4 +1,4 @@
-// Leetcode 0680 - Valid Palindrome II
+// LeetCode 0680 - Valid Palindrome II
 // Easy - Two Pointers
 // Given a string s, return true if s can be a palindrome after deleting at most one character from it
 

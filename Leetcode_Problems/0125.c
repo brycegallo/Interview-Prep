@@ -1,4 +1,4 @@
-// Leetcode 0125: Valid Palindrome
+// LeetCode 0125: Valid Palindrome
 // Easy - Two Pointers
 // A phrase is a palindrome if, after convering all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward.
 // Alphanumeric characters include letters and numbers
