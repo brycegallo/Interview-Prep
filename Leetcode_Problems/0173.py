@@ -20,6 +20,11 @@
 # obj = BSTIterator(root)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
+
+# Flattened BST Solution (Iterative Depth-First-Search)
+# Complexities:
+# Time : O(n) for initialization and each next() call
+# Space: O(n)
 class BSTIterator:
 
     def __init__(self, root: Optional[TreeNode]):
