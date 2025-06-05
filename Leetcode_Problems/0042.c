@@ -19,6 +19,7 @@ int trap(int* height, int heightSize) {
         } else {
             right_max = right_max > height[--right] ? right_max : height[right];
         }
+	// because left_max or right_max will be changed conditionally above, the below line may not execute as intended
         result += left_max < right_max ? (left_max - height[left]) : (right_max - height[right]);
     }
     return result;
