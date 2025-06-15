@@ -4,6 +4,6 @@ LeetCode Problems, Data Structure Implementations, and other tools for studying 
 ## LeetCode Problems
 C:      36<br/>
 Go:     4<br/>
-Python: 44<br/>
+Python: 45<br/>
 
-Total:  84
+Total:  85
