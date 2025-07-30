@@ -26,6 +26,8 @@ class Solution:
 # Complexities:
 # Time : O(n * 2^n)
 # Space: O(n) - O(2^n) for output list
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
         result = [[]]
 
         for num in nums:
