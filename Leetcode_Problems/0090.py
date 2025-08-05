@@ -26,3 +26,21 @@ class Solution:
         backtrack(0, [])
         return result
 
+# Iterative Solution
+# Complexities:
+# Time : O(n * 2^n)
+# Space: O(2^n) - for the output, O(1) extra space
+class Solution:
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        result = [[]]
+        nums.sort()
+        prev_idx = idx = 0
+
+        for i in range(len(nums)):
+            idx = prev_idx if i >= 1 and nums[i] == nums[i - 1] else 0
+            prev_idx = len(result)
+            for j in range(idx, prev_idx):
+                temp = result[j].copy()
+                temp.append(nums[i])
+                result.append(temp)
+        return result
