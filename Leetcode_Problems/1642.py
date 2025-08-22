@@ -19,7 +19,7 @@ class Solution:
             diff = heights[i + 1] - heights[i]
             if diff > 0:
                 bricks -= diff
-                heapq.heappush(heap, -diff)
+                heapq.heappush(heap, -diff)  # works without heapify?
 
                 if bricks < 0:
                     if ladders != 0:
