@@ -13,7 +13,7 @@
  * }
  */
 
-// Iterative Depth-First Search Solution
+// Recursive Depth-First Search Solution
 // Complexities:
 // Time : O(n)
 // Space: O(n) - O(log(n)) if tree is balanced, O(n) if degenerate
